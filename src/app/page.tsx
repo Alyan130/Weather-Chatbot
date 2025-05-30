@@ -1,4 +1,3 @@
-import Products from "@/components/Allproducts";
 import Chatbot from "@/components/chatbot";
 
 

@@ -47,7 +47,6 @@ function Chatbot() {
                       {["London weather", "Tokyo forecast", "New York temperature"].map((suggestion) => (
                         <button
                           key={suggestion}
-                          onClick={() => handleInputChange({ target: { value: suggestion } } as any)}
                           className="px-4 py-2 bg-gray-800/50 hover:bg-gray-700/50 border border-gray-700/50 
                                    rounded-lg text-sm text-gray-300 transition-all duration-200 hover:border-gray-600/50"
                         >
